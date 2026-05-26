@@ -92,3 +92,8 @@ For developers, please see:
 - and these [commit comment guidelines](./doc/SEMANTIC_VERSIONING.md) 😬😬😬 for managing CI rules for automated semantic releases.
 
 You can also contact [Lawrence McDaniel](https://lawrencemcdaniel.com/contact) directly.
+
+## Docker Debugging Tips
+
+Use `docker logs <container_id>` to inspect output from a running container.
+Use `docker exec -it <container_id> bash` to open a shell inside the container.
